@@ -20,3 +20,11 @@ vim.opt.smartindent = true
 vim.keymap.set("n", "<tab>", ":bnext<CR>", opts)
 vim.keymap.set("n", "<S-tab>", ":bprevious<CR>", opts)
 vim.keymap.set("n", "na", ":NodeAction<CR>", opts)
+
+vim.keymap.set("n", "<leader>m", "$", opts)
+vim.keymap.set("n", "<leader>n", "0", opts)
+-- flutter keymaps
+vim.keymap.set("n", "<leader>flr", ":FlutterDevices<CR>", opts)
+vim.keymap.set("n", "<leader>flq", ":FlutterQuit<CR>", opts)
+vim.keymap.set("n", "<leader>flot", ":FlutterOutlineToggle<CR>", opts)
+vim.keymap.set("n", "<leader>flre", ":FlutterReload<CR>", opts)
